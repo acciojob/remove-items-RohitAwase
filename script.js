@@ -5,3 +5,4 @@ function removecolor() {
         select.remove(select.selectedIndex);
     }
 }
+document.getElementById("removeColor").addEventListener("click",removecolor);
